@@ -14,7 +14,7 @@ void *doit(int n){
 int main(){
     //初始配置
     int max_thread_num = 4;
-    int listen_port = 1234;
+    int listen_port = 80;
 
     int listenfd, epollfd, events_num, connfd;
     struct epoll_event *events;//epoll得到的可用事件集合
